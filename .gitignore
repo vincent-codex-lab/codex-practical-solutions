@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
+*.bak
+*.zip
+*.7z
+*.exe
+*.msi
+.env
+.env.*
+secrets/
+temp/
+out/
