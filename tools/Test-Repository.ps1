@@ -35,7 +35,7 @@ foreach ($dir in $solutionDirs) {
     $metadataPath = Join-Path $dir.FullName 'metadata.json'
     if (Test-Path -LiteralPath $metadataPath) {
         try {
-            $metadata = Get-Content -LiteralPath $metadataPath -Raw | ConvertFrom-Json
+            $metadata = [IO.File]::ReadAllText($metadataPath, [Text.Encoding]::UTF8) | ConvertFrom-Json
             Test-Check ([bool]$metadata.title) "$($dir.Name) metadata has title"
             Test-Check ($metadata.date -match '^\d{4}-\d{2}-\d{2}$') "$($dir.Name) metadata has valid date"
             Test-Check ([bool]$metadata.category) "$($dir.Name) metadata has category"
@@ -63,7 +63,7 @@ $secretPatterns = @(
 )
 
 foreach ($file in $textFiles) {
-    $content = Get-Content -LiteralPath $file.FullName -Raw
+    $content = [IO.File]::ReadAllText($file.FullName, [Text.Encoding]::UTF8)
     foreach ($pattern in $secretPatterns) {
         Test-Check (-not [regex]::IsMatch($content, $pattern)) "$($file.FullName.Substring($repoRoot.Length + 1)) passes sensitive-data pattern check"
     }

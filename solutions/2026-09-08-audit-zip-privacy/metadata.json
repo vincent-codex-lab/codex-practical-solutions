@@ -1,0 +1,11 @@
+{
+  "title": "用 Codex 在上传 GitHub 前检查 ZIP 是否泄露隐私",
+  "date": "2026-09-08",
+  "category": "隐私和安全检查",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "platforms": ["Windows"],
+  "modifies_user_files": false,
+  "network_required": false,
+  "tested": true
+}
