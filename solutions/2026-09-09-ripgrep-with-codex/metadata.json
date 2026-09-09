@@ -1,0 +1,19 @@
+{
+  "title": "用 ripgrep 帮 Codex 快速定位大项目里的代码",
+  "date": "2026-09-09",
+  "category": "编程、调试与项目维护",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "platforms": ["Windows", "macOS", "Linux"],
+  "modifies_user_files": false,
+  "network_required": false,
+  "third_party_tool": {
+    "name": "ripgrep",
+    "official_repository": "https://github.com/BurntSushi/ripgrep",
+    "latest_verified_release": "15.2.0",
+    "tested_version": "15.2.0",
+    "license": "MIT OR Unlicense",
+    "binary_redistributed": false
+  },
+  "tested": true
+}
