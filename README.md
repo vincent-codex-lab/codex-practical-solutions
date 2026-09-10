@@ -18,6 +18,7 @@
 
 | 日期 | 实用问题 | 分类 | 难度 | 测试状态 |
 |---|---|---|---|---|
+| 2026-09-10 | [让 Codex 安全整理下载文件夹，并可一键撤销](solutions/2026-09-10-organize-downloads-safely/README.md) | Windows 与文件处理 | 小白 | 26 项测试通过 |
 | 2026-09-09 | [用 ripgrep 帮 Codex 快速定位大项目里的代码](solutions/2026-09-09-ripgrep-with-codex/README.md) | 编程、调试与项目维护 | 小白 | 13 项测试通过 |
 | 2026-09-08 | [上传 GitHub 前检查 ZIP 是否泄露隐私](solutions/2026-09-08-audit-zip-privacy/README.md) | 隐私和安全检查 | 小白 | 18 项测试通过 |
 

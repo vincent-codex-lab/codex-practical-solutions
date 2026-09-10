@@ -1,0 +1,11 @@
+{
+  "title": "让 Codex 安全整理下载文件夹，并可一键撤销",
+  "date": "2026-09-10",
+  "category": "Windows 与文件处理",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "platforms": ["Windows"],
+  "modifies_user_files": true,
+  "network_required": false,
+  "tested": true
+}
