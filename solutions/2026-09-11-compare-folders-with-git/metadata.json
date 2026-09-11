@@ -1,0 +1,20 @@
+{
+  "title": "不用建立仓库，用 Git 和 Codex 安全比较两个文件夹",
+  "date": "2026-09-11",
+  "category": "Windows 与文件处理",
+  "difficulty": "beginner",
+  "estimated_minutes": 10,
+  "platforms": ["Windows", "macOS", "Linux"],
+  "modifies_user_files": false,
+  "network_required": false,
+  "third_party_tool": {
+    "name": "Git for Windows",
+    "official_homepage": "https://gitforwindows.org/",
+    "official_documentation": "https://git-scm.com/docs/git-diff",
+    "latest_verified_release": "2.55.0.windows.5",
+    "tested_version": "2.53.0.windows.3",
+    "license": "GPL-2.0",
+    "binary_redistributed": false
+  },
+  "tested": true
+}
